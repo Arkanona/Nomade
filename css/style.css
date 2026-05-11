@@ -204,6 +204,54 @@ main {
             }
         }
     }
+
+    #cosmetics {
+        
+        background-color: var(--beige);
+        
+
+        div {
+            display: grid;
+            grid-template-columns: 50% auto;
+            padding: 150px 0 80px 0;
+            margin-bottom: 120px;
+            
+            img {
+                width: 100%;
+                border-radius: 12px;
+            }
+
+            article {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                padding: 15px;
+                justify-content: center;
+
+                h2 {
+                    font-family: var(--fontarimo);
+                    font-weight: 700;
+                    font-size: 36px;
+                }
+
+                p {
+                    font-family: var(--fontroboto);
+                    font-size: 16px;
+                }
+
+                a {
+                    font-family: var(--fontroboto);
+                    color: var(--white);
+                    background-color: var(--rose);
+                    padding: 12px 24px;
+                    border-radius: 3px;
+                    box-shadow: 0px 0px 10px 0px #00000080;
+                    text-align: center;
+                    width: max-content;
+                }
+            }
+        }
+    }
 }
 
 /* Footer */
